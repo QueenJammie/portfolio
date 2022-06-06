@@ -94,6 +94,11 @@ a:hover
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
+.img-weather-app
+{
+    position: relative;
+    top: 3em;
+}
 .about-link:hover
 {
     background: var(--primary-color);
