@@ -31,6 +31,7 @@ h2 {
 h3 {
     font-size: 24px;
     opacity: 0.7;
+    line-height: 4;
 }
 button, .button
 {
@@ -71,7 +72,10 @@ a:hover
     text-decoration: underline;
 
 }
-
+.bold
+{
+    font-weight: bold;
+}
 .navigation-links {
     display: flex;
     margin-top: 40px;

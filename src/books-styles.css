@@ -163,3 +163,6 @@ a:hover {
 {
     font-size: smaller;
 }
+.bold {
+    font-weight: bold;
+}
