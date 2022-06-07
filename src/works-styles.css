@@ -136,7 +136,9 @@ a:hover {
 .email-link:hover {
     text-decoration: underline;
 }
-
+.center {
+    text-align: center;
+}
 .navbar {
     position: fixed;
     width: 100%;

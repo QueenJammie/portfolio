@@ -8,8 +8,8 @@ body {
     margin: 60px auto;
     max-width: 800px;
 }
-nav
-{
+
+nav {
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
@@ -33,10 +33,12 @@ h3 {
     opacity: 0.7;
     line-height: 4;
 }
-button, .button
-{
+
+button,
+.button {
     box-shadow: 5px 2px 2px 1px rgba(0, 0, 255, 0.3);
 }
+
 p {
     background: var(--secondary-color);
     padding: 20px;
@@ -45,10 +47,9 @@ p {
     line-height: 1.5;
     text-align: center;
 }
-@media (min-width: 576px)
-{
-    p
-    {
+
+@media (min-width: 576px) {
+    p {
         background: var(--secondary-color);
         padding: 20px;
         border-radius: 4px;
@@ -57,25 +58,27 @@ p {
         text-align: center;
     }
 }
-footer
-{
+
+footer {
     margin-top: 2em;
 }
-a
-{
+
+a {
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
+    color: rgb(165, 156, 17);
 }
-a:hover
-{
-    text-decoration: underline;
 
+a:hover {
+    text-decoration: underline;
+    color: rgb(165, 156, 17);
 }
-.bold
-{
+
+.bold {
     font-weight: bold;
 }
+
 .navigation-links {
     display: flex;
     margin-top: 40px;
@@ -95,8 +98,8 @@ a:hover
     box-shadow: var(--box-shadow);
     color: white;
 }
-.contact-link:hover
-{
+
+.contact-link:hover {
     background: #fff;
     box-shadow: var(--box-shadow);
     color: var(--primary-color);
@@ -106,26 +109,31 @@ a:hover
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
-.img-weather-app
-{
+
+.img-weather-app {
     position: relative;
     top: 3em;
 }
-.about-link:hover
-{
+
+.about-link:hover {
     background: var(--primary-color);
     color: #fff;
 }
 
-.homepage-link 
-{
+a {
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
     color: rgb(165, 156, 17);
 }
-    
-.homepage-link:hover {
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(165, 156, 17);
+    text-align: center;
+}
+
+a:hover {
     text-decoration: underline;
     color: rgb(165, 156, 17);
 }
@@ -134,7 +142,10 @@ a:hover
     display: flex;
     margin: 30px 0;
 }
-
+.center
+{
+    text-align: center;
+}
 .email-link {
     display: flex;
     justify-content: center;
@@ -158,16 +169,17 @@ a:hover
     text-align: left;
     background-color: white;
 }
-.container-fluid
-{
+
+.container-fluid {
     background-color: rgba(232, 223, 100, 0.881);
 }
-.coder
-{
+
+.coder {
     text-align: left;
     margin-left: 1em;
     margin-right: 25em;
 }
-.center {
-    text-align: center;
+.contact p
+{
+    background-color: white;
 }
