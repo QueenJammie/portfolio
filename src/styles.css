@@ -8,6 +8,10 @@ body {
     margin: 60px auto;
     max-width: 800px;
 }
+nav
+{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
 
 h1,
 h2,
